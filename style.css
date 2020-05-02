@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/*Google Fonts*/
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Courgette',cursive;
+}
+
+.container{
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo{
+    font-family: 'Rock Salt', cursive;
+}
+
+.header-left{
+    float: left;
+    padding-left: 50px;
+}
+
+.header-right{
+    padding-top: 20px;
+    float: right;
+}
+
+.header-right a{
+    float: left;
+    line-height: 65px;
+    padding: 0 30px;
+    color: #fff;
+    display: block;
+}
+
+
+.heading h1{
+    font-family: 'Cinzel', serif;
+}
+
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.image{
+    background-image: url(resort.jpg);
+    background-size: cover;
+    height: 720px;    /* set as per requirement */
+    width: 100%;
+  }
+  
+.container h1{
+    font-size: 60px;
+    color: #fff;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.top-wrapper.overlay:before {
+    background: rgba(0, 0, 0, 0.45); /*slight black filter in background. */
+    content: "";                        /*to make white text more visible */
+    position: absolute;
+    height: 100vh;
+    min-height: 720px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+.top-wrapper h1{
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p{
+    opacity: 0.9;
+    margin-bottom: 3px;
+}
+
+/* Styling buttons */
+.btn{
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-right:0.5rem;
+
+}
+
+.btn.uppercase{
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: .2em;
+}
+/* Button: Explore the beauty */
+.btn-primary{
+    color: #fff;
+    background-color: #e61c5d;
+    border-color: #e61c5d;
+}
+
+.btn-primary:hover{
+    color: #fff;
+    background-color: #c6164e;
+    border-color: #ba154a;
+}
+
+.btn-primary:focus{
+    -webkit-box-shadow:0 0 0 0.2rem rgba(230,28,93,0.5);
+    box-shadow: 0 0 0 0.2rem rgba(230,28,93,0.5);
+}
+
+/*Button: Check Rooms Availability */
+.btn-outline-light{
+    color: #f8f9fa;
+    background-color: transparent;
+    border-color:#f8f9fa ;
+}
+
+.btn-outline-light:hover{
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
